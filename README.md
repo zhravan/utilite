@@ -6,10 +6,8 @@
 ---
 
 <p align="center">
-<b>Join us at our server for any discussion, guidance and help:</b>
-<a href="https://discord.gg/2nN2VqwNaK">
-  <img align="center" width="10%" src="https://dcbadge.vercel.app/api/server/2nN2VqwNaK" alt="logo"/>
-  </a>
+<b>Join us at our server for any discussion, guidance and help:</b> <a href="https://discord.gg/JCKzJcb24r"> Discord community </a>
+
 </p>
 
 ### Setup
