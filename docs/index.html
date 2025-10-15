@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/A5yncX/docsify-theme-darcula@v1.0/darcula.css">
+  <link rel="stylesheet" href="demo-plugin.css" />
   <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
 
@@ -26,6 +27,8 @@
       name: "<span>utilite</span>",
       repo: "https://github.com/shravan20/utilite",
       coverpage: "_cover.md",
+      loadSidebar: true,
+      subMaxLevel: 2,
       formatUpdated: "{MM}/{DD} {HH}:{mm}",
       homepage:
         "https://raw.githubusercontent.com/shravan20/utilite/main/README.md",
@@ -38,10 +41,10 @@
       notFoundPage: '_notfound.md',
       themeColor: "#f08d67",
       search: {
-        paths: [], // or 'auto'
+        paths: 'auto',
         placeholder: "Type to search",
         noData: "No Results!",
-        hideOtherSidebarContent: false // whether or not to hide other sidebar content
+        hideOtherSidebarContent: false
       },
       copyCode: {
         buttonText: 'Copy to clipboard',
@@ -55,6 +58,17 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  
+  <!-- Optional: Vue.js for Vue demos -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  
+  <!-- Optional: React for React demos -->
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  
+  <!-- Demo Plugin -->
+  <script src="demo-plugin.js"></script>
 </body>
 
 </html>
